@@ -1,11 +1,14 @@
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class day1 {
     public static void main(String[] args) {
         ArrayList<Elf> elves = elfCreator();
-        System.out.println(highestCalories(elves));
+        ArrayList<Integer> caloriesSorted = sortedByHighestCalories(elves);
+        System.out.println(caloriesSorted.get(caloriesSorted.size()-1));
+        System.out.println(caloriesSorted.get(caloriesSorted.size()-1)+caloriesSorted.get(caloriesSorted.size()-2)+caloriesSorted.get(caloriesSorted.size()-3));
     }
     public static ArrayList<String> reader(){
         ArrayList<String> s = new ArrayList<>();
@@ -35,16 +38,16 @@ public class day1 {
         }
         return elves;
     }
-    public static int highestCalories(ArrayList<Elf> elves){
-        int highest=0;
+    public static ArrayList<Integer> sortedByHighestCalories(ArrayList<Elf> elves){
+        ArrayList<Integer> calorieSum = new ArrayList<>();
         for (Elf elf : elves) {
             int sum = 0;
             for (int j = 0; j < elf.calories.size(); j++) {
                 sum += elf.calories.get(j);
             }
-            if (sum > highest)
-                highest = sum;
+            calorieSum.add(sum);
         }
-        return highest;
+        Collections.sort(calorieSum);
+        return calorieSum;
     }
 }
