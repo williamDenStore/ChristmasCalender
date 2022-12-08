@@ -11,6 +11,7 @@ public class day1 {
         System.out.println(caloriesSorted.get(caloriesSorted.size()-1)+caloriesSorted.get(caloriesSorted.size()-2)+caloriesSorted.get(caloriesSorted.size()-3));*/
         day2 a = new day2(reader("RockPaperScissors.txt"));
         System.out.println(a.calculateScore());
+        System.out.println(a.calculateScorep2());
     }
     public static ArrayList<String> reader(String searchPath){
         ArrayList<String> s = new ArrayList<>();
