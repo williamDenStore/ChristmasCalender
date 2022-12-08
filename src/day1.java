@@ -9,9 +9,8 @@ public class day1 {
         ArrayList<Integer> caloriesSorted = sortedByHighestCalories(elves);
         System.out.println(caloriesSorted.get(caloriesSorted.size()-1));
         System.out.println(caloriesSorted.get(caloriesSorted.size()-1)+caloriesSorted.get(caloriesSorted.size()-2)+caloriesSorted.get(caloriesSorted.size()-3));*/
-        day2 a = new day2(reader("RockPaperScissors.txt"));
-        System.out.println(a.calculateScore());
-        System.out.println(a.calculateScorep2());
+        day3 a = new day3(reader("Rucksack.txt"));
+        System.out.println(a.task2());
     }
     public static ArrayList<String> reader(String searchPath){
         ArrayList<String> s = new ArrayList<>();
