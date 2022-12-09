@@ -5,11 +5,7 @@ import java.util.Scanner;
 
 public class day1 {
     public static void main(String[] args) {
-        /*ArrayList<Elf> elves = elfCreator();
-        ArrayList<Integer> caloriesSorted = sortedByHighestCalories(elves);
-        System.out.println(caloriesSorted.get(caloriesSorted.size()-1));
-        System.out.println(caloriesSorted.get(caloriesSorted.size()-1)+caloriesSorted.get(caloriesSorted.size()-2)+caloriesSorted.get(caloriesSorted.size()-3));*/
-        day3 a = new day3(reader("Rucksack.txt"));
+        day4 a = new day4(reader("Cleanup.txt"));
         System.out.println(a.task2());
     }
     public static ArrayList<String> reader(String searchPath){

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7dcc59a-d34c-452b-8e77-478fe24ad444" name="Changes" comment="adventofcode. Day 2 task 2">
+    <list default="true" id="c7dcc59a-d34c-452b-8e77-478fe24ad444" name="Changes" comment="adventofcode. Day 3 task 1 and 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
       <workItem from="1669970209421" duration="220000" />
       <workItem from="1669970491789" duration="12370000" />
       <workItem from="1670514641949" duration="1060000" />
-      <workItem from="1670518447557" duration="9182000" />
+      <workItem from="1670518447557" duration="15192000" />
     </task>
     <task id="LOCAL−00001" summary="adventofcode. Day 1">
       <created>1669984789100</created>
@@ -85,7 +84,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1670520984452</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="adventofcode. Day 3 task 1 and 2">
+      <created>1670534832560</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1670534832560</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +112,8 @@
     <MESSAGE value="adventofcode. Day 1 task 2" />
     <MESSAGE value="adventofcode. Day 2 task 1" />
     <MESSAGE value="adventofcode. Day 2 task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="adventofcode. Day 2 task 2" />
+    <MESSAGE value="adventofcode. Day 3 task 1 and 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="adventofcode. Day 3 task 1 and 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
